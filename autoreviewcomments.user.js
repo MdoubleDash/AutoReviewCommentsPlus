@@ -1,11 +1,11 @@
 /** @preserve
 // ==UserScript==
-// @name           ARC
+// @name           ARC+
 // @namespace      MDoubleDash
 // @author         Benjol
 // @version        1.4.7
 // @description    No more re-typing the same comments over and over!
-// @homepage       https://github.com/MdoubleDash/SE-ARC-Collectives
+// @homepage       https://github.com/MdoubleDash/AutoReviewCommentsPlus
 // @grant          none
 // @include /^https?:\/\/(.*\.)?stackoverflow\.com/.*$/
 // @include /^https?:\/\/(.*\.)?serverfault\.com/.*$/
@@ -22,7 +22,7 @@
 
 // ==/UserScript==
 */
-//Forked from https://github.com/Benjol/SE-AutoReviewComments
+//Copied from https://github.com/Benjol/SE-AutoReviewComments
 
 function with_jquery(f) {
   var script = document.createElement("script");
@@ -36,7 +36,7 @@ with_jquery(function($) {
     //// Self Updating Userscript, see https://gist.github.com/Benjol/874058
 // (the first line of this template _must_ be a comment!)
 var VERSION = '1.4.7';
-var URL = "https://github.com/MdoubleDash/SE-ARC-Collectives/master/dist/autoreviewcomments.user.js"
+var URL = "https://github.com/MdoubleDash/AutoReviewCommentsPlus/main/autoreviewcomments.user.js"
 
 // This hack is necessary to bring people up from the last working auto-uptate gist
 // release if they manually installed the latest version. (can be removed after some
@@ -56,6 +56,7 @@ if (window["AutoReviewComments_AutoUpdateCallback"]) {
 
 // Split int based version number strings on dots, zero-pad the arrays to the same length and
 // compare them in order such that true is returned only if the proposted version is newer
+// MDoubleDash: Always returning false for now; no auto-updates
 function isVersionNewer(proposed, current) {
   proposed = proposed.split(".");
   current = current.split(".");
