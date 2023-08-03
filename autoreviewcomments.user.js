@@ -180,11 +180,31 @@ function CheckForNewVersion(popup) {
         Target: [Target.CommentQuestion],
         Name: "R specific MRE",
         Description: "You should provide a [minimal reproducible example of your code and data along with relevant errors](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example). Please [edit] your question to include a [mre] so that readers can run your code to answer your question."
-      },      
+      },
+      {
+        Target: [Target.CommentQuestion],
+        Name: "Example data (R)",
+        Description: "It will be much easier to help if you provide at least a short, representative sample of your data. Please [edit] your question and paste the output of the `dput(data)` command (preferred) or in tab delimited form. This will help users here answer your question."
+      },
+      {
+        Target: [Target.CommentQuestion],
+        Name: "Statistics / Data Science",
+        Description: "It seems that your question focuses on data analysis, visualization or statistics. $SITENAME$ is a site that focuses on practical *programming* questions. Thus, your question is not a good fit here. Some such questions may be on-topic for [Cross Validated](https://stats.stackexchange.com/help/on-topic) or [Data Science Stack Exchange](https://datascience.stackexchange.com/help/on-topic), but please review their respective help centers before posting."
+      },
+      {
+        Target: [Target.CommentQuestion],
+        Name: "External Repo",
+        Description: "Questions that require reviewing content on a website or other external source are off-topic here. When a link becomes obsolete, the question is no longer useful to future readers. We are trying to build a lasting repository of useful question/answer pairs here. Please review [Something in my web site or project doesn't work. Can I just paste a link to it?](https://meta.stackoverflow.com/questions/254428/) for more information."
+      },
+      {
+        Target: [Target.CommentQuestion],
+        Name: "Homework",
+        Description: "$SITENAME$ is not a homework or work task tutoring site nor is it a tutorial site. That said, if you try to address the problem yourself and get stuck, many here are willing to help. Please [edit] your question with what you have tried so far and the specific issue you are having. See [How do I ask and answer homework questions?](https://meta.stackoverflow.com/questions/334822/how-do-i-ask-and-answer-homework-questions)"
+      },
       {
         Target: [Target.CommentQuestion],
         Name: "Convert Images",
-        Description: "Please [edit] your question to convert images into text, and use a [code block] for any code you have. Readers can then search the text or run the code to reproduce your issue."
+        Description: "Please do not post images of code or data. Instead, please [edit] your question and paste the code or data in directly. Images can't be copied and pasted into an editor and run directly to reproduce the problem, are hard to read on mobile devices, may be blocked by proxies or firewalls, and can't be searched and therefore aren't useful to future readers. For more information, please see [this Meta post](https://meta.stackoverflow.com/questions/285551/)."
       },
       {
         Target: [Target.CommentQuestion],
@@ -194,7 +214,7 @@ function CheckForNewVersion(popup) {
       {
         Target: [Target.CommentQuestion],
         Name: "Revise Title",
-        Description: "Please [edit] your question to convert images into text, and use a [code block] for any code you have. Readers can then search the text or run the code to reproduce your issue."
+        Description: "Please [edit] the title of your question to be descriptive, unambiguous, and specific to what you are asking. For more guidance, see [How do I write a good title?](https://meta.stackexchange.com/q/10647)"
       },
       {
         Target: [Target.CommentQuestion],
