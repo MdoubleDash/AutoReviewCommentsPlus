@@ -1,5 +1,22 @@
 callback(
 [
+  
+{ "name": "[Q] R specific MRE", "description": "You should provide a [minimal reproducible example of your code and data along with relevant errors](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example). Please [edit] your question to include a [mre] so that readers can run your code to answer your question."},
+
+{ "name": "[Q] Example data (R)", "description": "It will be much easier to help if you provide at least a short, representative sample of your data. Please [edit] your question and paste the output of the `dput(data)` command (preferred) or in tab delimited form. This will help users here answer your question."},
+
+{ "name": "[Q] Statistics / Data Science", "description": "It seems that your question focuses on data analysis, visualization or statistics. $SITENAME$ is a site that focuses on practical *programming* questions. Thus, your question is not a good fit here. Some such questions may be on-topic for [Cross Validated](https://stats.stackexchange.com/help/on-topic) or [Data Science Stack Exchange](https://datascience.stackexchange.com/help/on-topic), but please review their respective help centers before posting."},
+
+{ "name": "[Q] Convert Images / Data", "description": "Please do not post images of code or data. Instead, please [edit] your question and paste the code or data in directly. Images can't be copied and pasted into an editor and run directly to reproduce the problem, are hard to read on mobile devices, may be blocked by proxies or firewalls, and can't be searched and therefore aren't useful to future readers.  For more information, please see [this Meta post](https://meta.stackoverflow.com/questions/285551/)."},
+  
+{ "name": "[Q] External Repo", "description": "Questions that require reviewing content on a website or other external source are off-topic here. When a link becomes obsolete, the question is no longer useful to future readers. We are trying to build a lasting repository of useful question/answer pairs here. Please review [Something in my web site or project doesn't work. Can I just paste a link to it?](https://meta.stackoverflow.com/questions/254428/) for more information."},
+
+{ "name": "[Q] Homework (R)", "description": "$SITENAME$ is not a homework or work task tutoring site nor is it a tutorial site. That said, if you try to address the problem yourself and get stuck, many here are willing to help. Please [edit] your question with what you have tried so far and the specific issue you are having. See [How do I ask and answer homework questions?](https://meta.stackoverflow.com/questions/334822/how-do-i-ask-and-answer-homework-questions) and [How to make a great R reproducible example](https://$SITEURL$/questions/5963269/how-to-make-a-great-r-reproducible-example) for more."},
+
+{ "name": "[Q] Improve Code Formatting", "description": "The lack of proper code formatting makes it difficult for readers to help you. Please [edit] your question to format inline code properly and to use a [code block] for any code or error messages you have included."},
+  
+{ "name": "[Q] You need a tutorial (R)", "description": "It seems that you have fundamental gaps in your knowledge of the R programming language and would instead benefit more from reading a tutorial or asking your instructor if you are participating in a class. In the mean time, please see the [R tag wiki](https://$SITEURL$/tags/r/info) for some great resources."},
+  
 { "name": "[Q] Elaborate On What Expected", "description": "Please [edit] your question to provide more details on what you expected to happen versus what actually happened. This will help readers figure out what didn't work and how to answer your question accordingly."},
 
 { "name": "[Q] Be Specific About Problem", "description": "Please [edit] your question to specifically and clearly define the problem that you are trying to solve. Additional details — including all relevant code, error messages, and debugging logs — will help readers to better understand your problem and [what you are asking]."},
@@ -8,15 +25,9 @@ callback(
 
 { "name": "[Q] Include MRE", "description": "Please [edit] your question to include a [mre] so that readers can run your code to answer your question."},
 
-{ "name": "[Q] R specific MRE", "description": "You should provide a [minimal reproducible example of your code and data along with relevant errors](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example). Please [edit] your question to include a [mre] so that readers can run your code to answer your question."},
-
-{ "name": "[Q] Convert Images", "description": "Please [edit] your question to convert images into text, and use a [code block] for any code you have. Readers can then search the text or run the code to reproduce your issue."},
-
 { "name": "[Q] Non-English Content", "description": "Stack Overflow is an [English-only site](//meta.stackoverflow.com/a/297680). Please try your best to [edit] your question to rewrite it in English."},
 
 { "name": "[Q] Revise Title", "description": "Please [edit] your question to convert images into text, and use a [code block] for any code you have. Readers can then search the text or run the code to reproduce your issue."},
-
-{ "name": "[Q] Improve Code Formatting", "description": "The lack of proper code formatting makes it difficult for readers to help you. Please [edit] your question to format inline code properly and to use a [code block] for any code or error messages you have included."},
 
 { "name": "[A] NAA-Comment", "description": "This does not provide an answer to the question. Once you have sufficient [reputation](${reputationHelp}) you will be able to [comment on any post](${commentHelp}); instead, [provide answers that don't require clarification from the asker](//meta.stackexchange.com/q/214173)."},
 
