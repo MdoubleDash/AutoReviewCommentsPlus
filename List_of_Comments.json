@@ -11,7 +11,7 @@ callback(
   
 { "name": "[Q] External Repo", "description": "Questions that require reviewing content on a website or other external source are off-topic here. When a link becomes obsolete, the question is no longer useful to future readers. We are trying to build a lasting repository of useful question/answer pairs here. Please review [Something in my web site or project doesn't work. Can I just paste a link to it?](https://meta.stackoverflow.com/questions/254428/) for more information."},
 
-{ "name": "[Q] Homework (R)", "description": "$SITENAME$ is not a homework or work task tutoring site nor is it a tutorial site. That said, if you try to address the problem yourself and get stuck, many here are willing to help. Please [edit] your question with what you have tried so far and the specific issue you are having. See [How do I ask and answer homework questions?](https://meta.stackoverflow.com/questions/334822/how-do-i-ask-and-answer-homework-questions)"},
+{ "name": "[Q] Homework", "description": "$SITENAME$ is not a homework or work task tutoring site nor is it a tutorial site. That said, if you try to address the problem yourself and get stuck, many here are willing to help. Please [edit] your question with what you have tried so far and the specific issue you are having. See [How do I ask and answer homework questions?](https://meta.stackoverflow.com/questions/334822/how-do-i-ask-and-answer-homework-questions)"},
 
 { "name": "[Q] Improve Code Formatting", "description": "The lack of proper code formatting makes it difficult for readers to help you. Please [edit] your question to format inline code properly and to use a [code block] for any code or error messages you have included."},
   
